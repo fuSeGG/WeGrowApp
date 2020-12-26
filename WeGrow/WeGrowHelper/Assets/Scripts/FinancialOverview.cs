@@ -7,9 +7,10 @@ public class FinancialOverview : MonoBehaviour
     private decimal currentTotalMoney;
     private decimal expectedMonthlyChange;
 
+    private Transaction spotifySubscription;
+
     void Start()
     {
-
     }
 
     private void FindExpectedMonthlyChange()
